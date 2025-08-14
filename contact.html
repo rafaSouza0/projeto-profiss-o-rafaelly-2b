@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - VitalFit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Vital<span>Fit</span></a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="services.html">Serviços</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li><a href="contact.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Entre em Contato</h1>
+            <p>Tire suas dúvidas ou agende sua aula experimental</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> Rua Fitness, 123 - Centro, Curitiba/PR</p>
+                    <p><i class="fas fa-phone"></i> <strong>Telefone:</strong> (41) 98765-4321</p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> contato@vitalfit.com</p>
+                    <p><i class="fas fa-clock"></i> <strong>Horário de Funcionamento:</strong></p>
+                    <p>Segunda a Sexta: 6h às 21h</p>
+                    <p>Sábado: 8h às 14h</p>
+                    <p>Domingo: Fechado</p>
+                    
+                    <div class="social-links">
+                        <h3>Nos siga nas redes sociais</h3>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Envie uma Mensagem</h2>
+                    <form id="contactForm" action="https://formspree.io/f/santos.souza.rafaelly@escola.pr.gov.br" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Seu Telefone (opcional)">
+                        </div>
+                        <div class="form-group">
+                            <select name="subject" required>
+                                <option value="" disabled selected>Assunto</option>
+                                <option value="Aula Experimental">Aula Experimental</option>
+                                <option value="Dúvidas">Dúvidas</option>
+                                <option value="Orçamento">Orçamento</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                        <div id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2>Onde Estamos</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.506635856453!2d-49.27438492429063!3d-25.45097763333121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce472f8f33f3f%3A0x5b58ee41b7abf9f5!2sCentro%20Pol%C3%ADtico%20Administrativo%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1689876437943!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>VitalFit</h3>
+                    <p>Transformando vidas através do fitness com metodologia científica e atendimento humanizado.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="services.html">Serviços</a></li>
+                        <li><a href="gallery.html">Galeria</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Fitness, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (41) 98765-4321</p>
+                    <p><i class="fas fa-envelope"></i> contato@vitalfit.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 VitalFit. Todos os direitos reservados.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-handler.js"></script>
+</body>
+</html>
