@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - VitalFit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Vital<span>Fit</span></a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="services.html">Serviços</a></li>
+                    <li><a href="gallery.html" class="active">Galeria</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Nossa Galeria</h1>
+            <p>Conheça nosso espaço e veja nossos alunos em ação</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="training">Treinos</button>
+                <button class="filter-btn" data-filter="space">Espaço</button>
+                <button class="filter-btn" data-filter="results">Resultados</button>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-item training">
+                    <img src="img/workout1.jpg" alt="Treino Funcional">
+                    <div class="gallery-overlay">
+                        <h3>Treino Funcional</h3>
+                        <p>Exercícios que melhoram a capacidade funcional do corpo</p>
+                    </div>
+                </div>
+                <div class="gallery-item space">
+                    <img src="img/workout2.jpg" alt="Nosso Espaço">
+                    <div class="gallery-overlay">
+                        <h3>Nosso Espaço</h3>
+                        <p>Ambiente equipado com os melhores aparelhos</p>
+                    </div>
+                </div>
+                <div class="gallery-item results">
+                    <img src="img/workout3.jpg" alt="Resultados">
+                    <div class="gallery-overlay">
+                        <h3>Transformações</h3>
+                        <p>Alunos que alcançaram seus objetivos</p>
+                    </div>
+                </div>
+                <div class="gallery-item training">
+                    <img src="img/workout4.jpg" alt="Treino de Força">
+                    <div class="gallery-overlay">
+                        <h3>Treino de Força</h3>
+                        <p>Desenvolvimento muscular com técnica perfeita</p>
+                    </div>
+                </div>
+                <div class="gallery-item results">
+                    <img src="img/workout1.jpg" alt="Resultados">
+                    <div class="gallery-overlay">
+                        <h3>Progresso Constante</h3>
+                        <p>Acompanhamento detalhado de evolução</p>
+                    </div>
+                </div>
+                <div class="gallery-item space">
+                    <img src="img/workout3.jpg" alt="Área de Cardio">
+                    <div class="gallery-overlay">
+                        <h3>Área de Cardio</h3>
+                        <p>Equipamentos modernos para treino aeróbico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div class="container">
+            <h2>Conheça Nosso Trabalho</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Pronto para começar sua transformação?</h2>
+            <p>Agende sua primeira consulta gratuita e dê o primeiro passo em direção aos seus objetivos.</p>
+            <a href="contact.html" class="btn">Entre em contato</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>VitalFit</h3>
+                    <p>Transformando vidas através do fitness com metodologia científica e atendimento humanizado.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="services.html">Serviços</a></li>
+                        <li><a href="gallery.html">Galeria</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Fitness, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (41) 98765-4321</p>
+                    <p><i class="fas fa-envelope"></i> contato@vitalfit.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 VitalFit. Todos os direitos reservados.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
